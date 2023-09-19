@@ -10,6 +10,7 @@ import Messenger from "./Components/Messenger";
 import Navbar from "./Components/Navbar";
 import FontAwesomeIcon from "./Components/FontAwesomeIcon";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <div>
@@ -18,8 +19,7 @@ function App() {
         <Routes>
         <Route path='/FontAwesomeIcon' element={<FontAwesomeIcon/>}/>
         <Route path='/' element={<Homes/>}/>
-        
-          <Route path="/marketplace" element={<Marketplace/>}/>
+        <Route path="/marketplace" element={<Marketplace/>}/>
           <Route path='/gaming' element={<Gaming />}/>
             <Route path='/notification' element={<Notification />}/>
             <Route path='/menu' element={<Menu />}/>
