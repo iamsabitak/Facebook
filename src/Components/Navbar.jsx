@@ -31,7 +31,7 @@ function Navbar() {
           </div>
           <div className="search" style={{ height: "40px", width:"15%",borderwidth: '2px 4px',
                 borderRadius: '40px' ,padding:'20px'}}>
-          <input type="text" placeholder = "   &#128269; Search facebook" style={{ height: "30px", width:"100%",borderwidth: '2px 4px',padding:'0px',
+          <input type="text" placeholder = "   &#128269; Search facebook" style={{ height: "35px", width:"100%",borderwidth: '2px 4px',
                 borderRadius: '40px',fontSize:"17px"}}></input>
         </div>
         <div className="box1" style={{
@@ -183,7 +183,7 @@ margin:'5px',
           </div>
         </div>
       </div>
-    </>
+      </>
   );
 }
 
