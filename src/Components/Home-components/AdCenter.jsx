@@ -2,7 +2,7 @@ import React from 'react'
 
 function AdCenter() {
   return (
-    <div>Ad_Center</div>
+    <div>AdCenter</div>
   )
 }
 

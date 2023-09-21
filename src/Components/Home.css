@@ -1,0 +1,77 @@
+
+.Content{
+  display: flex;
+}
+.links {
+  margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: blue;
+  display: block;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+  }
+
+  .MiddleRight-content {
+    width: 80%;
+    display: flex;
+  }
+  .links a:hover {
+    color: blue; 
+  }
+  .navbar{
+    margin:0;
+  }
+  .container{
+    /* position: sticky;
+    top: 0;
+    overflow-y: auto; */
+   color: black;
+  }
+  .Left-content {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 20%;
+    overflow-y: auto;
+    max-height: calc(100vh - 50px);
+    background-color: aqua;
+    
+  }
+  .Middle-content{
+    width: 70%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    max-height: calc(100vh - 50px);
+    background-color: aqua;
+    border: 1px solid white;
+    
+  }
+  .Middle-content p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 10px;
+  }
+  .Right-content {
+    width: 25%;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    max-height: calc(100vh - 50px);
+    flex: 1;
+   background-color: aqua;
+  }
+
+  .Right-content p{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 10px;
+  }
+  

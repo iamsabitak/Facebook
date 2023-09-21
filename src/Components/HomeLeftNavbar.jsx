@@ -19,14 +19,16 @@ import Pages from "./Home-components/Pages";
 import Recentadactivity from "./Home-components/Recentadactivity";
 import Saved from "./Home-components/Saved";
 import { BrowserRouter as Router, Routes ,Route } from 'react-router-dom';
+import Accounts from './Home-components/Accounts';
 function HomeLeftNavbar() {
   return (
+    <div className='leftnavbar' style={{position:'sticky',top:'0'}}>
     <Router>
         <Routes>
 
         <Route path='/profile' element={<Profile/>}/>
         <Route path='/friends' element={<Friends/>}/>
-           
+        <Route path='/accounts' element={<Accounts/>}/>
            <Route path='/memories' element={<Memories/>}/>
            
            <Route path='/saved' element={<Saved/>}/>
@@ -61,6 +63,7 @@ function HomeLeftNavbar() {
            <Route path='/recentadactivity' element={<Recentadactivity/>}/>
            </Routes>
     </Router>
+    </div>
   )
 }
 

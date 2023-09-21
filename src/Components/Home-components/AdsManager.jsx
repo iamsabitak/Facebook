@@ -2,9 +2,7 @@ import React from 'react'
 
 function AdsManager() {
   return (
-    <div>
-      Ads Manager
-      </div>
+    <div>AdsManager</div>
   )
 }
 
