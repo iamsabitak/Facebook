@@ -355,8 +355,9 @@ function Home() {
                     href="/#"
                     style={{ textDecoration: "none", color: "grey" }}
                   >
-                    Helps.
+                    Help.Meta &copy; 2023
                   </a>
+   
                 </div>
               </div>
             </div>
