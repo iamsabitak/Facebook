@@ -15,7 +15,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-person-circle"
+                    className="bi bi-person-circle"
                     viewBox="0 0 16 16"
                   >
                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -33,7 +33,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-people-fill"
+                    className="bi bi-people-fill"
                     viewBox="0 0 16 16"
                   >
                     <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
@@ -46,7 +46,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-stopwatch"
+                    className="bi bi-stopwatch"
                     viewBox="0 0 16 16"
                   >
                     <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z" />
@@ -60,7 +60,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-bookmark-fill"
+                    className="bi bi-bookmark-fill"
                     viewBox="0 0 16 16"
                   >
                     <path d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z" />
@@ -83,7 +83,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-shop-window"
+                    className="bi bi-shop-window"
                     viewBox="0 0 16 16"
                   >
                     <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z" />
@@ -96,7 +96,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-calendar4-range"
+                    className="bi bi-calendar4-range"
                     viewBox="0 0 16 16"
                   >
                     <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z" />
@@ -110,7 +110,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-window-stack"
+                    className="bi bi-window-stack"
                     viewBox="0 0 16 16"
                   >
                     <path d="M4.5 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1ZM6 6a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z" />
@@ -124,7 +124,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-bar-chart-line"
+                    className="bi bi-bar-chart-line"
                     viewBox="0 0 16 16"
                   >
                     <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z" />
@@ -137,7 +137,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-bag-heart"
+                    className="bi bi-bag-heart"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -153,7 +153,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-megaphone"
+                    className="bi bi-megaphone"
                     viewBox="0 0 16 16"
                   >
                     <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49a68.14 68.14 0 0 0-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 74.663 74.663 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199V2.5zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0zm-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233c.18.01.359.022.537.036 2.568.189 5.093.744 7.463 1.993V3.85zm-9 6.215v-4.13a95.09 95.09 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A60.49 60.49 0 0 1 4 10.065zm-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68.019 68.019 0 0 0-1.722-.082z" />
@@ -166,7 +166,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-globe-central-south-asia"
+                    className="bi bi-globe-central-south-asia"
                     viewBox="0 0 16 16"
                   >
                     <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM4.882 1.731a.482.482 0 0 0 .14.291.487.487 0 0 1-.126.78l-.291.146a.721.721 0 0 0-.188.135l-.48.48a1 1 0 0 1-1.023.242l-.02-.007a.996.996 0 0 0-.462-.04 7.03 7.03 0 0 1 2.45-2.027Zm-3 9.674.86-.216a1 1 0 0 0 .758-.97v-.184a1 1 0 0 1 .445-.832l.04-.026a1 1 0 0 0 .152-1.54L3.121 6.621a.414.414 0 0 1 .542-.624l1.09.818a.5.5 0 0 0 .523.047.5.5 0 0 1 .724.447v.455a.78.78 0 0 0 .131.433l.795 1.192a1 1 0 0 1 .116.238l.73 2.19a1 1 0 0 0 .949.683h.058a1 1 0 0 0 .949-.684l.73-2.189a1 1 0 0 1 .116-.238l.791-1.187A.454.454 0 0 1 11.743 8c.16 0 .306.084.392.218.557.875 1.63 2.282 2.365 2.282a.61.61 0 0 0 .04-.001 7.003 7.003 0 0 1-12.658.905Z" />
@@ -179,7 +179,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-joystick"
+                    className="bi bi-joystick"
                     viewBox="0 0 16 16"
                   >
                     <path d="M10 2a2 2 0 0 1-1.5 1.937v5.087c.863.083 1.5.377 1.5.726 0 .414-.895.75-2 .75s-2-.336-2-.75c0-.35.637-.643 1.5-.726V3.937A2 2 0 1 1 10 2z" />
@@ -193,7 +193,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-messenger"
+                    className="bi bi-messenger"
                     viewBox="0 0 16 16"
                   >
                     <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
@@ -206,7 +206,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-chat-dots"
+                    className="bi bi-chat-dots"
                     viewBox="0 0 16 16"
                   >
                     <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
@@ -220,7 +220,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-credit-card-2-front"
+                    className="bi bi-credit-card-2-front"
                     viewBox="0 0 16 16"
                   >
                     <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z" />
@@ -234,7 +234,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-flag"
+                    className="bi bi-flag"
                     viewBox="0 0 16 16"
                   >
                     <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z" />
@@ -247,7 +247,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-controller"
+                    className="bi bi-controller"
                     viewBox="0 0 16 16"
                   >
                     <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z" />
@@ -261,7 +261,7 @@ function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-journal-album"
+                    className="bi bi-journal-album"
                     viewBox="0 0 16 16"
                   >
                     <path d="M5.5 4a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-.5-.5h-5zm1 7a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3z" />
@@ -357,157 +357,176 @@ function Home() {
                   >
                     Help.Meta &copy; 2023
                   </a>
-   
                 </div>
               </div>
             </div>
-            <div className="MiddleRight-content">
-              <div className="Middle-content">
-                <div className="card-group">
-                  <div
-                    className="card"
-                    style={{
-                      borderRadius: "20px",
-                      height: "300px",
-                      width: "200px",
-                      marginLeft: "10px",
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <img
-                      src="https://static.thenounproject.com/png/5034901-200.png"
-                      className="card-img-top"
-                      alt="Error"
+            <div className="Middle-Content">
+              <div className="middleTop">
+                <div className="Stories">
+                  <div className="card-group">
+                    <div
+                      className="card"
                       style={{
-                        width: "200px",
-                        height: "170px",
                         borderRadius: "20px",
-                      }}
-                    />
-                    <hr />
-                    <h3
-                      style={{
-                        display: "flex",
-                        justifyContent: "center",
-                        marginTop: "8px",
-                        marginBottom: "3px",
+                        height: "250px",
+                        width: "150px",
+                        backgroundColor: "white",
+                        marginLeft: "-5px",
                       }}
                     >
-                      Creat Story
-                    </h3>
-                    <p>
-                      Add a photo or video to share to your story. Tap below
-                      Your Story
-                    </p>
-                  </div>
-                  <div className="card ">
-                    <img
-                      src="https://i.pinimg.com/550x/a7/bb/c8/a7bbc8c4d05cedc95e795e0f7329d19d.jpg"
-                      className="card-img-top"
-                      alt="Error"
-                      style={{
-                        width: "200px",
-                        height: "300px",
-                        borderRadius: "20px",
-                      }}
-                    />
-                  </div>
+                      <img
+                        src="https://static.thenounproject.com/png/5034901-200.png"
+                        className="card-img-top"
+                        alt="Error"
+                        style={{
+                          width: "118px",
+                          height: "110px",
+                          borderRadius: "20px",
+                        }}
+                      />
+                      <hr />
+                      <h3
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          marginTop: "16px",
+                          marginBottom: "3px",
+                        }}
+                      >
+                        Creat Story
+                      </h3>
+                      <p
+                        style={{
+                          display: "flex",
+                          marginLeft: "10px",
+                          fontSize: "15px",
+                        }}
+                      >
+                        Add a photo or video to share to your story. Tap below
+                        Your Story.
+                      </p>
+                    </div>
+                    <div className="card ">
+                      <img
+                        src="https://i.pinimg.com/550x/a7/bb/c8/a7bbc8c4d05cedc95e795e0f7329d19d.jpg"
+                        className="card-img-top"
+                        alt="Error"
+                        style={{
+                          display: "flex",
+                          width: "150px",
+                          height: "250px",
+                          borderRadius: "20px",
+                          marginLeft: "10px",
+                        }}
+                      />
+                    </div>
 
-                  <div className="card">
-                    <img
-                      src="https://m.media-amazon.com/images/M/MV5BNTkzNjJhYjQtNjU0Yy00Y2M3LWI2ZDgtNDRhZmNlNDFjMjQ5XkEyXkFqcGdeQXVyODk2ODI3MTU@._V1_FMjpg_UX1000_.jpg"
-                      className="card-img-top"
-                      alt="Error"
-                      style={{
-                        width: "200px",
-                        height: "300px",
-                        borderRadius: "20px",
-                      }}
-                    />
-                  </div>
+                    <div className="card">
+                      <img
+                        src="https://m.media-amazon.com/images/M/MV5BNTkzNjJhYjQtNjU0Yy00Y2M3LWI2ZDgtNDRhZmNlNDFjMjQ5XkEyXkFqcGdeQXVyODk2ODI3MTU@._V1_FMjpg_UX1000_.jpg"
+                        className="card-img-top"
+                        alt="Error"
+                        style={{
+                          width: "150px",
+                          height: "250px",
+                          borderRadius: "20px",
+                          marginLeft: "-10px",
+                        }}
+                      />
+                    </div>
 
-                  <div className="card">
-                    <img
-                      src="https://i.pinimg.com/originals/13/10/19/131019769501931b16738460c6ba4b94.jpg"
-                      className="card-img-top"
-                      alt="Error"
-                      style={{
-                        width: "200px",
-                        height: "300px",
-                        borderRadius: "20px",
-                        // border: "1px solid grey",
-                      }}
-                    />
+                    <div className="card">
+                      <img
+                        src="https://w0.peakpx.com/wallpaper/468/382/HD-wallpaper-crayon-shinchan-anime.jpg"
+                        className="card-img-top"
+                        alt="Error"
+                        style={{
+                          width: "150px",
+                          height: "250px",
+                          borderRadius: "20px",
+                          marginLeft: "-8px",
+                          marginRight: "-14px",
+                          
+                        }}
+                      />
+                    </div>
                   </div>
-                  <div className="card">
-                    <img
-                      src="https://i.pinimg.com/originals/c0/b3/52/c0b352b9545c46bb12e4ca3035c40ba5.jpg"
-                      className="card-img-top"
-                      alt="Error"
-                      style={{
-                        width: "200px",
-                        height: "300px",
-                        borderRadius: "20px",
-                        // border: "1px solid grey",
-                      }}
-                    />
-                  </div>
+                </div>
 
-                  <div className="card">
-                    <img
-                      src="https://w0.peakpx.com/wallpaper/468/382/HD-wallpaper-crayon-shinchan-anime.jpg"
-                      className="card-img-top"
-                      alt="Error"
-                      style={{
-                        width: "200px",
-                        height: "300px",
-                        borderRadius: "20px",
-                        // border: "1px solid grey",
-                      }}
-                    />
-                  </div>
-
-                  <div className="card">
-                    <img
-                      src="https://wallpapercave.com/wp/wp8457503.png"
-                      alt="Error"
-                      style={{
-                        width: "200px",
-                        height: "300px",
-                        borderRadius: "20px",
-                        // border: "1px solid #DADBDD",
-                      }}
+                <div className="posts">
+                  <div
+                    className="thought">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="4rem"
+                      height="3rem"
+                      fill="currentColor"
+                      className="bi bi-person-circle"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                      <path
+                        fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+                      />
+                    </svg>{" "}
+                    <input className="searchbar"
+                      type="text"
+                      placeholder="Whats on your mind?"
                     />
                   </div>
                 </div>
+                <div className="photostolikeandShare">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8vUi1IST09JRKGqZu_cQwJ2xPz8tSTK2etlpg5Wwkyii036FKH79l1w5WGAoCKIb6rg&usqp=CAU" alt="Upload Error" />
+                  
+                </div>
+                <div className="photostolikeandShare">
+                  <img src="https://i.imgflip.com/7tcbos.jpg" alt="Upload Error" />
+                  
+                </div>
+                <div className="photostolikeandShare">
+                  <img src="https://images.template.net/73578/Free-Happy-Birthday-Meme-5.jpg" alt="Upload Error" />
+                  
+                </div>
+                <div className="photostolikeandShare">
+                  <img src="https://i.pinimg.com/550x/1d/e6/98/1de698eca35c67ccf82431b967ff22d7.jpg" alt="Upload Error" />
+                  
+                </div>
+                <div className="photostolikeandShare">
+                  <img src="https://images7.memedroid.com/images/UPLOADED961/62fb626f4932b.jpeg" alt="Upload Error" />
+                  
+                </div>
+                <div className="photostolikeandShare">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmf3cbjZg6MzsBwMLdgZHXwivjYeN4mOenRmItdNIMEvzc6XO834q35jpHI2Bzy6sCseg&usqp=CAU" alt="Upload Error" />
+                  
+                </div>
+                
               </div>
-              <div className="Right-content">
-                <div className="heading">
-                  <h3 style={{ margin: "50px", color: "grey" }}>Sponsered</h3>
-                </div>
-                <div
-                  className="leff"
-                  style={{ display: "flex", marginTop: "30px" }}
-                >
+            </div>
+            <div className="Right-content">
+              <div className="sponsored">
+              <div className="heading">
+                  <h3>Sponsered</h3>
+                  <div
+                  className="left">
+
                   <img
                     src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/g/x/9/-original-imaggsudg5fufyte.jpeg?q=70"
                     alt="Upload Error"
                     style={{
                       height: "100px",
                       width: "100px",
-                      marginLeft: "35px",
-                      borderRadius: "20%",
                     }}
                   />
-                  <div className="text" style={{ display: "flex" }}>
-                    <h4 style={{ display: "flex", marginLeft: "10px" }}>
-                      Google Pixel 7 (Snow, 128 GB) (8 GB RAM)
+                  
+                  <div className="text">
+                    <h4>
+                     Google Pixel 7 (Snow, 128 GB) (8 GB RAM)
                     </h4>
-                  </div>
+                </div>
                 </div>
                 <div
-                  className="leff"
-                  style={{ display: "flex", marginTop: "30px" }}
+                  className="left"
                 >
                   <img
                     src="https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70"
@@ -515,38 +534,37 @@ function Home() {
                     style={{
                       height: "100px",
                       width: "150px",
-                      marginLeft: "35px",
-                      borderRadius: "20%",
+                      
                     }}
                   />
-                  <div className="text" style={{ display: "flex" }}>
-                    <h4 style={{ display: "flex", marginLeft: "10px" }}>
+                  <div className="text">
+                    <h4>
                       APPLE iPhone 13 (Starlight, 128 GB)
                     </h4>
                   </div>
                 </div>
                 <div
-                  className="leff"
-                  style={{ display: "flex", marginTop: "30px" }}
-                >
+                  className="leff" style={{display:'flex'}}
+              >
                   <img
                     src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/y/9/g/-original-imagnfzyhh8gz8sd.jpeg?q=70"
                     alt="Upload Error"
                     style={{
                       height: "100px",
-                      width: "200px",
-                      marginLeft: "35px",
-                      borderRadius: "20%",
+                      width: "100px",
+                      marginTop:'30px'
                     }}
                   />
-                  <div className="text" style={{ display: "flex" }}>
-                    <h4 style={{ display: "flex", marginLeft: "10px" }}>
+                  <div className="text">
+                    <h4>
                       POCO C55 (Cool Blue, 128 GB) (6 GB RAM)
                     </h4>
                   </div>
                 </div>
-                <hr />
-                <div className="next-content">
+                </div>
+              </div>
+              <hr />
+              <div className="next-content">
                   <h3
                     style={{
                       color: "grey",
@@ -581,7 +599,7 @@ function Home() {
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="bi bi-search"
+                      className="bi bi-search"
                       viewBox="0 0 16 16"
                     >
                       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
@@ -596,7 +614,7 @@ function Home() {
                       width="16"
                       height="16"
                       fill="currentColor"
-                      class="bi bi-three-dots"
+                      className="bi bi-three-dots"
                       viewBox="0 0 16 16"
                     >
                       <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
@@ -649,7 +667,7 @@ function Home() {
                         width="26px"
                         height="26px"
                         fill="currentColor"
-                        class="bi bi-plus-circle"
+                        className="bi bi-plus-circle"
                         viewBox="0 0 16 16"
                         style={{
                           marginLeft: "20px",
@@ -674,7 +692,6 @@ function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
         </div>
