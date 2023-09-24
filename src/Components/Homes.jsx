@@ -446,6 +446,8 @@ function Home() {
                           borderRadius: "20px",
                           marginLeft: "-8px",
                           marginRight: "-14px",
+
+                        
                         }}
                       />
                     </div>
