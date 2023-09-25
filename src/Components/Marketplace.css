@@ -1,6 +1,7 @@
 .container{
     display: flex;
-
+    overflow-y: auto;
+    max-height: calc(100vh - 50px);
 }
 .left-content{
     width: 35%;
@@ -12,6 +13,9 @@
     max-height: calc(100vh - 50px);
     background-color: white;
     margin-left: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 
 }
 .scrolling-content{
@@ -50,10 +54,15 @@ margin-right: 10px;
 
 
 .right-content{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
      overflow-y: auto;
-    max-height: calc(100vh - 50px);
+    max-height: calc(100vh);
     background-color: aliceblue;
-    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .searchBar{
     margin-top: 10px;
@@ -96,30 +105,40 @@ background-color: aliceblue;
 .todaysPicks{
     margin-top: 20px;
 }
-.FirstRowStuffs{
+.FirstRowStuff{
 display: flex;
-
 }
 .card img{
     height: 300px;
     width: 250px;
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    
 }
 .SecondRowStuff{
     display: flex;
 }
+
 .ThirdRowStuff{
     display: flex;
     
 }
+.ForthRowStuff{
+    display: flex;
+    
+    }
 .card-text{
     margin-top: -10px;
     margin-left: 20px;
 }
 .card-title{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 60px;
     font-size: large;
+}
+.Heading{
+     margin: 10px;
+}
+.card{
+    margin-left: 25px;
+
 }

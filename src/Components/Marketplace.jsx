@@ -363,51 +363,10 @@ function Marketplace() {
         <div className="right-content">
           <div className="todaysPicks">
             <div className="allstuffs">
-              <div className="FirstRowStuffs">
-                <div className="card">
-                  <img
-                    src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6103057944291"
-                    className="card-img-top"
-                    alt="Upload Error"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Guitar</h5>
-                    <p className="card-text">
-                    "Hottest deal of the season! Limited availability. Act fast for incredible savings and rewards. Shop now and save big!"
-                    </p>
-                  </div>
-                </div>
-
-                <div className="card">
-                  <img
-                    src="https://img.staticmb.com/mbcontent/images/uploads/2022/12/Most-Beautiful-House-in-the-World.jpg"
-                    className="card-img-top"
-                    alt="Upload Error"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">House</h5>
-                    <p className="card-text">
-                    "Your dream home awaits! Spacious, modern design, prime location. Invest in comfort, luxury, and a brighter future. Secure your sanctuary now!"
-                    </p>
-                  </div>
-                </div>
-
-                <div className="card">
-                  <img
-                    src="https://cdn.motor1.com/images/mgl/VA0z9/s1/4x3/tesla-roadster.webp"
-                    className="card-img-top"
-                    alt="Upload Error"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Car</h5>
-                    <p className="card-text">
-                    "Rev up your life with our sleek, powerful cars. Unmatched performance, luxurious features, and reliability await you. Drive success today!"
-                    </p>
-                  </div>
-                </div>
+            <div className="Heading">
+                <h2>Today's picks</h2>
               </div>
-
-              <div className="SecondRowStuff">
+              <div className="FirstRowStuff">
                 <div className="card">
                   <img
                     src="https://laz-img-sg.alicdn.com/p/7d1c16e54c707347dacff109629a8ae9.jpg"
@@ -417,7 +376,9 @@ function Marketplace() {
                   <div className="card-body">
                     <h5 className="card-title">Beautiful Top</h5>
                     <p className="card-text">
-                    "Hottest deal of the season! Limited availability. Act fast for incredible savings and rewards. Shop now and save big!"
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
                     </p>
                   </div>
                 </div>
@@ -430,7 +391,9 @@ function Marketplace() {
                   <div className="card-body">
                     <h5 className="card-title">Trending Bag</h5>
                     <p className="card-text">
-                    "Hottest deal of the season! Limited availability. Act fast for incredible savings and rewards. Shop now and save big!"
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
                     </p>
                   </div>
                 </div>
@@ -442,7 +405,56 @@ function Marketplace() {
                   <div className="card-body">
                     <h5 className="card-title">Trending Korean dress</h5>
                     <p className="card-text">
-                    "Hottest deal of the season! Limited availability. Act fast for incredible savings and rewards. Shop now and save big!"
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="SecondRowStuff">
+                <div className="card">
+                  <img
+                    src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg"
+                    className="card-img-top"
+                    alt="Upload Error"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Lamborghini</h5>
+                    <p className="card-text">
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src="https://images.says.com/uploads/story_source/source_image/697355/2776.jpg"
+                    className="card-img-top"
+                    alt="Upload Error"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Mobile Covers</h5>
+                    <p className="card-text">
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src="https://pyxis.nymag.com/v1/imgs/bfe/54d/ea862efeb15cf50c86c95e81b46d2e58e7-IMG-3995.rsquare.w700.jpg"
+                    alt="Upload Error"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Some Korean Stuffs</h5>
+                    <p className="card-text">
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
                     </p>
                   </div>
                 </div>
@@ -457,7 +469,9 @@ function Marketplace() {
                   <div className="card-body">
                     <h5 className="card-title"> Make-up stuffs</h5>
                     <p className="card-text">
-                    "Hottest deal of the season! Limited availability. Act fast for incredible savings and rewards. Shop now and save big!"
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
                     </p>
                   </div>
                 </div>
@@ -470,7 +484,9 @@ function Marketplace() {
                   <div className="card-body">
                     <h5 className="card-title">Make-up stuffs</h5>
                     <p className="card-text">
-                    "Hottest deal of the season! Limited availability. Act fast for incredible savings and rewards. Shop now and save big!"
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
                     </p>
                   </div>
                 </div>
@@ -481,9 +497,57 @@ function Marketplace() {
                     alt="Upload Error"
                   />
                   <div className="card-body">
-                    <h5 className="card-title">Make-up Stuffs</h5>
+                    <h5 className="card-title">Watch</h5>
                     <p className="card-text">
-                    "Hottest deal of the season! Limited availability. Act fast for incredible savings and rewards. Shop now and save big!"
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="SecondRowStuff">
+                <div className="card">
+                  <img
+                    src="https://m.media-amazon.com/images/I/71KmSqBL9dL._AC_UY780_.jpg"
+                    className="card-img-top"
+                    alt="Upload Error"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Printed T-shirt</h5>
+                    <p className="card-text">
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src="https://m.media-amazon.com/images/I/613nUEr4TIL._AC_SX342_.jpg"
+                    className="card-img-top"
+                    alt="Upload Error"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">sweatshirt</h5>
+                    <p className="card-text">
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
+                    </p>
+                  </div>
+                </div>
+                <div className="card">
+                  <img
+                    src="https://m.media-amazon.com/images/I/71qVpSNOP7L._AC_SX679_.jpg"
+                    alt="Upload Error"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Hoodie</h5>
+                    <p className="card-text">
+                      "Hottest deal of the season! Limited availability. Act
+                      fast for incredible savings and rewards. Shop now and save
+                      big!"
                     </p>
                   </div>
                 </div>
