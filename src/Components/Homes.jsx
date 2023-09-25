@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
   return (
     <>
-      <div className="navbar" style={{ backgroundColor: "#DADBDD" }}>
+      <div className="navbar">
         <div className="container">
           <div className="Content">
             <div className="Left-content">
@@ -446,8 +446,6 @@ function Home() {
                           borderRadius: "20px",
                           marginLeft: "-8px",
                           marginRight: "-14px",
-
-                        
                         }}
                       />
                     </div>
@@ -455,8 +453,7 @@ function Home() {
                 </div>
 
                 <div className="posts">
-                  <div
-                    className="thought">
+                  <div className="thought">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="4rem"
@@ -471,228 +468,272 @@ function Home() {
                         d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
                       />
                     </svg>{" "}
-                    <input className="searchbar"
+                    <input
+                      className="searchbar"
                       type="text"
                       placeholder="Whats on your mind?"
                     />
                   </div>
+                  <hr />
+                  <div className="feelingPostingVideos">
+                    <Link to="/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26px"
+                        height="23px"
+                        fill="red"
+                        class="bi bi-camera-video"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"
+                        />
+                      </svg>
+                      {" Live Video"}
+                    </Link>
+                    <Link to="/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="26px"
+                        height="23px"
+                        fill="green"
+                        class="bi bi-file-image"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v8l-2.083-2.083a.5.5 0 0 0-.76.063L8 11 5.835 9.7a.5.5 0 0 0-.611.076L3 12V2z" />
+                      </svg>
+                      {" Photo/video "}
+                    </Link>
+                    <Link to="/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25px"
+                        height="23px"
+                        fill="gold"
+                        class="bi bi-emoji-laughing"
+                        viewBox="0 0 16 16"
+                      >
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                        <path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z" />
+                      </svg>
+                      {" Feeling/activity "}
+                    </Link>
+                  </div>
                 </div>
                 <div className="photostolikeandShare">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8vUi1IST09JRKGqZu_cQwJ2xPz8tSTK2etlpg5Wwkyii036FKH79l1w5WGAoCKIb6rg&usqp=CAU" alt="Upload Error" />
-                  
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8vUi1IST09JRKGqZu_cQwJ2xPz8tSTK2etlpg5Wwkyii036FKH79l1w5WGAoCKIb6rg&usqp=CAU"
+                    alt="Upload Error"
+                  />
                 </div>
                 <div className="photostolikeandShare">
-                  <img src="https://i.imgflip.com/7tcbos.jpg" alt="Upload Error" />
-                  
+                  <img
+                    src="https://i.imgflip.com/7tcbos.jpg"
+                    alt="Upload Error"
+                  />
                 </div>
                 <div className="photostolikeandShare">
-                  <img src="https://images.template.net/73578/Free-Happy-Birthday-Meme-5.jpg" alt="Upload Error" />
-                  
+                  <img
+                    src="https://images.template.net/73578/Free-Happy-Birthday-Meme-5.jpg"
+                    alt="Upload Error"
+                  />
                 </div>
                 <div className="photostolikeandShare">
-                  <img src="https://i.pinimg.com/550x/1d/e6/98/1de698eca35c67ccf82431b967ff22d7.jpg" alt="Upload Error" />
-                  
+                  <img
+                    src="https://i.pinimg.com/550x/1d/e6/98/1de698eca35c67ccf82431b967ff22d7.jpg"
+                    alt="Upload Error"
+                  />
                 </div>
                 <div className="photostolikeandShare">
-                  <img src="https://images7.memedroid.com/images/UPLOADED961/62fb626f4932b.jpeg" alt="Upload Error" />
-                  
+                  <img
+                    src="https://images7.memedroid.com/images/UPLOADED961/62fb626f4932b.jpeg"
+                    alt="Upload Error"
+                  />
                 </div>
                 <div className="photostolikeandShare">
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmf3cbjZg6MzsBwMLdgZHXwivjYeN4mOenRmItdNIMEvzc6XO834q35jpHI2Bzy6sCseg&usqp=CAU" alt="Upload Error" />
-                  
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmf3cbjZg6MzsBwMLdgZHXwivjYeN4mOenRmItdNIMEvzc6XO834q35jpHI2Bzy6sCseg&usqp=CAU"
+                    alt="Upload Error"
+                  />
                 </div>
-                
               </div>
             </div>
             <div className="Right-content">
               <div className="sponsored">
-              <div className="heading">
+                <div className="heading">
                   <h3>Sponsered</h3>
-                  <div
-                  className="left">
+                  <div className="left">
+                    <img
+                      src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/g/x/9/-original-imaggsudg5fufyte.jpeg?q=70"
+                      alt="Upload Error"
+                      style={{
+                        height: "100px",
+                        width: "100px",
+                      }}
+                    />
 
-                  <img
-                    src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/g/x/9/-original-imaggsudg5fufyte.jpeg?q=70"
-                    alt="Upload Error"
-                    style={{
-                      height: "100px",
-                      width: "100px",
-                    }}
-                  />
-                  
-                  <div className="text">
-                    <h4>
-                     Google Pixel 7 (Snow, 128 GB) (8 GB RAM)
-                    </h4>
-                </div>
-                </div>
-                <div
-                  className="left"
-                >
-                  <img
-                    src="https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70"
-                    alt="Upload Error"
-                    style={{
-                      height: "100px",
-                      width: "150px",
-                      
-                    }}
-                  />
-                  <div className="text">
-                    <h4>
-                      APPLE iPhone 13 (Starlight, 128 GB)
-                    </h4>
+                    <div className="text">
+                      <h4>Google Pixel 7 (Snow, 128 GB) (8 GB RAM)</h4>
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="leff" style={{display:'flex'}}
-              >
-                  <img
-                    src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/y/9/g/-original-imagnfzyhh8gz8sd.jpeg?q=70"
-                    alt="Upload Error"
-                    style={{
-                      height: "100px",
-                      width: "100px",
-                      marginTop:'30px'
-                    }}
-                  />
-                  <div className="text">
-                    <h4>
-                      POCO C55 (Cool Blue, 128 GB) (6 GB RAM)
-                    </h4>
+                  <div className="left">
+                    <img
+                      src="https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70"
+                      alt="Upload Error"
+                      style={{
+                        height: "100px",
+                        width: "150px",
+                      }}
+                    />
+                    <div className="text">
+                      <h4>APPLE iPhone 13 (Starlight, 128 GB)</h4>
+                    </div>
                   </div>
-                </div>
+                  <div className="leff" style={{ display: "flex" }}>
+                    <img
+                      src="https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/y/9/g/-original-imagnfzyhh8gz8sd.jpeg?q=70"
+                      alt="Upload Error"
+                      style={{
+                        height: "100px",
+                        width: "100px",
+                        marginTop: "30px",
+                      }}
+                    />
+                    <div className="text">
+                      <h4>POCO C55 (Cool Blue, 128 GB) (6 GB RAM)</h4>
+                    </div>
+                  </div>
                 </div>
               </div>
               <hr />
               <div className="next-content">
-                  <h3
-                    style={{
-                      color: "grey",
-                      marginLeft: "50px",
-                      marginTop: "20px",
-                    }}
+                <h3
+                  style={{
+                    color: "grey",
+                    marginLeft: "50px",
+                    marginTop: "20px",
+                  }}
+                >
+                  Birthdays
+                </h3>
+                <p
+                  style={{
+                    marginLeft: "40px",
+                    fontSize: "17px",
+                    marginTop: "10px",
+                  }}
+                >
+                  {" "}
+                  🎁 Someones Birthday Today!
+                </p>
+              </div>
+              <hr />
+              <div className="contact" style={{ display: "flex" }}>
+                <h3 style={{ color: "grey", marginLeft: "40px" }}>Contacts </h3>
+                <div
+                  className="search"
+                  style={{ marginLeft: "120px", marginTop: "28px" }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-search"
+                    viewBox="0 0 16 16"
                   >
-                    Birthdays
-                  </h3>
-                  <p
-                    style={{
-                      marginLeft: "40px",
-                      fontSize: "17px",
-                      marginTop: "10px",
-                    }}
-                  >
-                    {" "}
-                    🎁 Someones Birthday Today!
-                  </p>
-                </div>
-                <hr />
-                <div className="contact" style={{ display: "flex" }}>
-                  <h3 style={{ color: "grey", marginLeft: "40px" }}>
-                    Contacts{" "}
-                  </h3>
-                  <div
-                    className="search"
-                    style={{ marginLeft: "120px", marginTop: "28px" }}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      className="bi bi-search"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                    </svg>
-                  </div>
-                  <div
-                    className="icon-3-dots"
-                    style={{ marginTop: "26px", marginLeft: "27px" }}
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      className="bi bi-three-dots"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                    </svg>
-                  </div>
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                  </svg>
                 </div>
                 <div
-                  className="userContent"
+                  className="icon-3-dots"
+                  style={{ marginTop: "26px", marginLeft: "27px" }}
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-three-dots"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                  </svg>
+                </div>
+              </div>
+              <div
+                className="userContent"
+                style={{
+                  fontSize: "23px",
+                  marginLeft: "50px",
+                  fontFamily: "sans-serif",
+                }}
+              >
+                <h6 style={{ marginTop: "10px" }}>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+                <h6>User name</h6>
+              </div>
+              <hr />
+              <div className="Groups">
+                <h3 style={{ color: "grey", marginLeft: "40px" }}>
+                  Group Conversations
+                </h3>
+                <div
+                  className="Gnames"
                   style={{
                     fontSize: "23px",
                     marginLeft: "50px",
                     fontFamily: "sans-serif",
                   }}
                 >
-                  <h6 style={{ marginTop: "10px" }}>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
-                  <h6>User name</h6>
+                  <h6 style={{ marginTop: "30px" }}>Group name</h6>
+                  <h6>Group name</h6>
+                  <h6>Group name</h6>
                 </div>
-                <hr />
-                <div className="Groups">
-                  <h3 style={{ color: "grey", marginLeft: "40px" }}>
-                    Group Conversations
-                  </h3>
-                  <div
-                    className="Gnames"
-                    style={{
-                      fontSize: "23px",
-                      marginLeft: "50px",
-                      fontFamily: "sans-serif",
-                    }}
-                  >
-                    <h6 style={{ marginTop: "30px" }}>Group name</h6>
-                    <h6>Group name</h6>
-                    <h6>Group name</h6>
-                  </div>
-                  <div className="createGroups" style={{ marginTop: "-50px" }}>
-                    <div className="Pluslogo">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="26px"
-                        height="26px"
-                        fill="currentColor"
-                        className="bi bi-plus-circle"
-                        viewBox="0 0 16 16"
-                        style={{
-                          marginLeft: "20px",
-                          marginBottom: "-53px",
-                          color: "grey",
-                          marginRight: "15px",
-                        }}
-                      >
-                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-                      </svg>
-                      <p
-                        style={{
-                          color: "grey",
-                          marginLeft: "60px",
-                          marginTop: "25px",
-                          fontSize: "19px",
-                        }}
-                      >
-                        Create new group
-                      </p>
-                    </div>
+                <div className="createGroups" style={{ marginTop: "-50px" }}>
+                  <div className="Pluslogo">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="26px"
+                      height="26px"
+                      fill="currentColor"
+                      className="bi bi-plus-circle"
+                      viewBox="0 0 16 16"
+                      style={{
+                        marginLeft: "20px",
+                        marginBottom: "-53px",
+                        color: "grey",
+                        marginRight: "15px",
+                      }}
+                    >
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+                    </svg>
+                    <p
+                      style={{
+                        color: "grey",
+                        marginLeft: "60px",
+                        marginTop: "25px",
+                        fontSize: "19px",
+                      }}
+                    >
+                      Create new group
+                    </p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>

@@ -360,7 +360,7 @@ function Marketplace() {
             </div>
           </div>
         </div>
-        <div className="right-content" style={{ backgroundColor: "#DADBDD" }}>
+        <div className="right-content">
           <div className="todaysPicks">
             <div className="allstuffs">
               <div className="FirstRowStuffs">

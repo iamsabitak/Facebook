@@ -1,5 +1,8 @@
+.navbar{
+  background-color: aliceblue;
+}
 .Content{
-  margin:10px;
+  /* margin:10px; */
   display: flex;
   gap: 10px;
 }
@@ -33,7 +36,6 @@ overflow-y: auto;
   }
   .Right-content{
     width: 19rem;
-   
     position: sticky;
     top: 0;
     overflow-y: auto;
@@ -48,10 +50,12 @@ overflow-y: auto;
     margin-left: 90px;
     border-radius:10px;
     width: 30rem;
+    border: 1px solid rgb(232, 230, 225);
+    
   }
   
   .thought{
- height:7rem;
+ height:5rem;
    display:flex;
  justify-content:center;
   align-items: center;
@@ -62,7 +66,8 @@ overflow-y: auto;
    width: 400px;
    border-radius: 20px;
    background-color: GrayBlue;
-  color: "black",
+  color:black;
+  margin-top: 10px
     }
     .heading{
       margin: 50px;
@@ -90,6 +95,7 @@ overflow-y: auto;
    border-radius: 10px;
   color: "black";
   background-color: white;
+  border: 1px solid rgb(232, 230, 225);
   
   }
   .photostolikeandShare img{
@@ -99,4 +105,22 @@ margin-top: 30px;
 margin-left: 90px;
 margin-bottom: 30px;
 border-radius: 20px;
+  }
+  .feelingPostingVideos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+  }
+  .feelingPostingVideos a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  gap: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+
   }
