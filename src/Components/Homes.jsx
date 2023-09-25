@@ -372,6 +372,7 @@ function Home() {
                         width: "150px",
                         backgroundColor: "white",
                         marginLeft: "-5px",
+                        marginRight:'-19px'
                       }}
                     >
                       <img
@@ -382,6 +383,8 @@ function Home() {
                           width: "118px",
                           height: "110px",
                           borderRadius: "20px",
+                          marginLeft:'14px'
+                          
                         }}
                       />
                       <hr />
