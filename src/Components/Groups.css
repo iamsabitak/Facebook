@@ -1,0 +1,69 @@
+.content1 {
+  display: flex;
+  /* overflow-y: auto;
+    max-height: calc(100vh - 50px); */
+  gap: 10px;
+  background-color: aliceblue;
+}
+.left-content1 {
+  background-color: white;
+  overflow-y: auto;
+  max-height: calc(100vh - 50px);
+  width: 24rem;
+  border-right: 1px solid rgb(219, 235, 249);
+}
+.scrolling-content1 {
+  overflow-y: auto;
+  max-height: calc(100vh - 50px);
+}
+.right-content1 {
+  overflow-y: auto;
+  max-height: calc(100vh - 50px);
+  background-color: aliceblue;
+  width: 56rem;
+}
+.non-scrolling-content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.non-scrolling-content2 input {
+  margin-left: 28px;
+  margin-top: -9px;
+  height: 30px;
+  width: 20rem;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  
+}
+.scrolling-content {
+  margin-top: 10px;
+}
+.scrolling-content a {
+  text-decoration: none;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: black;
+  font-weight: 650;
+}
+.createnewgroups {
+  background-color: rgb(224, 237, 248);
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+  margin-top: 20px;
+  width: 22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.groupsyouhavejoined{
+    margin: 10px;
+}

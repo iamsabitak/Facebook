@@ -372,7 +372,7 @@ function Home() {
                         width: "150px",
                         backgroundColor: "white",
                         marginLeft: "-5px",
-                        marginRight:'-19px'
+                        marginRight:"-19px",
                       }}
                     >
                       <img

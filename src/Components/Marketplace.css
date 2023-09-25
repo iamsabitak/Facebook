@@ -4,9 +4,8 @@
     max-height: calc(100vh - 50px);
 }
 .left-content{
-    width: 35%;
+    width: 24rem;
     border-right: 1px solid #f8f6f1;
-
 }
 .scroll{
     overflow-y: auto;
@@ -25,7 +24,7 @@
     
 }
 .createnewlist{
-background-color:rgb(228, 225, 244);
+background-color:rgb(224, 237, 248);
 height: 40px;
 border-radius: 8px;
 font-size: 16px;
@@ -36,7 +35,7 @@ width: 20rem;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-left: 14px;
+margin-left: 10px;
 margin-right: 10px;
 
 }
@@ -63,6 +62,7 @@ margin-right: 10px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    width: 56rem;
 }
 .searchBar{
     margin-top: 10px;
@@ -80,7 +80,9 @@ background-color: aliceblue;
     margin-top: 10px;
     color: black;
 }
-
+.filter{
+    margin-left: -8px;
+}
 .filter a{
     text-decoration: none;
      color: blue;
@@ -90,6 +92,7 @@ background-color: aliceblue;
     align-items: center;
     margin-top:-5px;
     margin-bottom: 15px;
+    margin-left:-40px ;
 }
 .catagoriesLinks a{
     display: flex;
